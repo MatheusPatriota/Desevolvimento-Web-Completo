@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8">
+
+    <title>Java Script</title>
+    <script>
+        function mudaCor(cor) {
+            document.getElementById("caixa").style.backgroundColor = cor;
+        }
+
+        function mudarCorDiferente() {
+            var a = document.getElementById("caixa").value;
+            var b = a.length;
+            if (b <= 3) {
+                document.getElementById("caixa").style.backgroundColor = '#FF0000';
+            } else {
+                document.getElementById("caixa").style.backgroundColor = '#00FF00';
+            }
+        }
+
+    </script>
+</head>
+
+<body>
+    <input id="caixa" type="text" onfocus="mudaCor('#FFFF00') " onblur="mudarCorDiferente()">
+</body>
+
+</html>

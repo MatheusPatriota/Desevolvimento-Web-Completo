@@ -1,0 +1,37 @@
+body{
+    background-image: url('../images/fundo.png');
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+a{
+    color: #4b566a;
+    text-decoration: none;
+    font-weight: bold;
+    padding: 5px;   
+}
+.img-campanha{
+    border: 10px solid #c3c3ae;
+ }
+#principal{
+    width: 900px;
+}
+#menu{
+    background-color: #c5c5b2;
+    padding: 18px;
+}
+
+#descricaoPP{
+    background-color: #e8e8d9;
+    padding: 10px;
+}
+
+#rodape{
+    text-align: center;
+}
+.cabecalhoPPrincipal{
+    font-weight: bold;
+    font-size: 17px;
+    color: #828271;
+    
+}
+

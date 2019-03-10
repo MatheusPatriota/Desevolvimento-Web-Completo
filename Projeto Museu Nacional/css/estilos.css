@@ -1,0 +1,213 @@
+/* configurações gerais */
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font: 12px "Lucida Grande", "Lucida Sans Unicode", Arial, sans-serif;
+    background: #f4f2ec url(../images/fundo.png) repeat-x;
+}
+
+a {
+    text-decoration: none;
+}
+
+a:link, a:active, a:visited {
+    color: #af670a;
+    text-decoration: none;
+}
+
+a:hover {
+    color: #afabab;
+}
+
+header {
+    padding: 15px 0;
+    height: 55px;
+}
+
+#container {
+    margin: 0 auto;
+    width: 1080px;
+}
+
+/* configuração da logo */
+
+#logo h1 {
+    float: left;
+}
+
+#logo a {
+    text-indent: -99999px;
+    background: url(../images/logo.png) no-repeat;
+    width: 248px;
+    height: 21px;
+    display: block;
+}
+
+/* menu navegação */
+
+nav ul {
+    margin: 20px;
+    list-style: none;
+    float: right;
+    text-transform: uppercase;
+}
+
+nav ul li {
+    float: left;
+}
+
+nav ul li a:link {
+    display: block;
+    margin-right: 25px;
+    padding-bottom: 3px;
+}
+
+nav ul li a:hover {
+    border-bottom: 1px solid #535858;
+}
+
+/* configurações padrão de postagens tela inicial */
+
+#conteudo-principal {
+    width: 710px;
+    float: left;
+    margin-bottom: 20px;
+}
+
+#postagens h3 {
+    margin-top: 10px;
+    font-size: 1.0em;
+    margin-bottom: 15px;
+    text-transform: uppercase;
+    color: #438537;
+}
+
+article#video {
+    float: left;
+    width: 310px;
+    margin-left: 25px;
+}
+
+article#localizacao {
+    float: left;
+    width: 310px;
+    margin-left: 37px;
+}
+
+article#exposicoes {
+    float: left;
+    width: 310px;
+    margin: 15px 0 0 25px;
+}
+
+article#resumo-historia {
+    float: left;
+    width: 310px;
+    margin: 15px 0 0 37px;
+}
+
+/* configurando lateral direito */
+
+aside {
+    width: 350px;
+    float: right;
+    background: #EBE7DD;
+    padding-bottom: 30px;
+    margin-bottom: 20px;
+}
+
+/* configurando reserva */
+
+#reserva {
+    background-color: #CDC8B1;
+    padding: 30px;
+    margin-top: 10px;
+}
+
+#reserva h3 {
+    text-transform: uppercase;
+    color: #86521A;
+    padding-bottom: 3px;
+    margin-bottom: 0;
+    font-size: 1em;
+}
+
+.campo {
+    margin-bottom: 10px;
+}
+
+/* configurando galeria */
+
+section#galeria {
+    padding: 0 27px 0 27px;
+}
+
+section#galeria h3 {
+    text-transform: uppercase;
+    margin-top: 10px;
+    color: #86521A;
+    padding-bottom: 3px;
+    margin-bottom: 0;
+    font-size: 1em;
+}
+
+section#galeria a {
+    background: url(../images/fundo-foto.png) no-repeat;
+    display: block;
+    float: left;
+    padding: 17px 15px 17px 15px;
+    margin: 10px 0 0 20px;
+}
+
+section#galeria img {
+    margin-left: 2px;
+    margin-top: 3px;
+}
+
+/* configuração do rodape */
+
+footer {
+    clear: both;
+    padding: 20px 0 30px 0;
+    text-align: center;
+    background: url(../images/fundo-rodape.png) no-repeat center top;
+    margin-top: 20px;
+}
+
+footer>p a {
+    padding: 2px 10px;
+}
+
+/* configurando formularios */
+
+input {
+    height: 20px;
+    width: 80px;
+    background: #fff;
+    border: none;
+    font-size: 1em;
+}
+
+input.campo {
+    border: 1px solid #ada484;
+}
+
+input.botao {
+    background: #9b9271;
+    color: white;
+    width: 100%;
+    height: 40px;
+    font-size: 1.2em;
+}
+
+fieldset {
+    border: none;
+}
+
+legend {
+    display: none;
+}

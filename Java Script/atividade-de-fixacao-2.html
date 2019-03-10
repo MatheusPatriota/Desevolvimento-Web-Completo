@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8" />
+
+    <title>Desafio 2</title>
+    <script>
+
+        // criacao de variaveis
+        var nome = prompt("Digite seu nome:");
+        var altura = parseFloat(prompt("Digite sua altura (em cm): ")) / 100;
+        var peso = parseFloat(prompt("Digite seu peso: "));
+        var m = null;
+        var classificacao = null;
+
+        // processando dados
+
+        m = peso / (altura * altura);
+
+        if (m < 16) {
+            classificacao = "Baixo peso muito grave";
+        } else if (m >= 16 && m <= 16.99) {
+            classificacao = "Baixo peso grave";
+        } else if (m >= 17 && m <= 18.49) {
+            classificacao = "Baixo peso";
+        } else if (m >= 18.50 && m <= 24.99) {
+            classificacao = "Peso Normal";
+        } else if (m >= 25 && m <= 29.99) {
+            classificacao = "Sobrepeso";
+        } else if (m >= 30 && m <= 34.99) {
+            classificacao = "Obesidade grau I"
+        } else if (m >= 35 && m <= 39.99) {
+            classificacao = "Obesidade grau II"
+        } else {
+            classificacao = "Obesidade grau III"
+        }
+
+        //  exibicao para o usuario
+
+        alert(nome + " possui índice de massa corporal igual a " + m + ", sendo classificado como: " + classificacao + ".")
+
+    </script>
+</head>
+
+<body>
+
+</body>
+
+</html>

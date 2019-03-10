@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>Game Over</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
+        integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+
+    <link rel="stylesheet" href="css/estilo.css">
+
+    <script>
+        function iniciarJogo() {
+            var nivel = document.getElementById('dificuldade').value;
+            if (nivel === '') {
+                alert('Selecione um nível')
+                return false;
+            } else {
+                window.location.href = 'app.html?' + nivel;
+            }
+
+        }
+    </script>
+</head>
+
+<body>
+    <div class="container">
+        <div class="row">
+            <div class="col">
+                <div class="d-flex justify-content-center">
+                    <img src="images/game.png" alt="">
+                </div>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col">
+                <div class="d-flex justify-content-center">
+                    <div class="mb-2">
+                        <select name="dificuldade" id="dificuldade" class="form-control">
+                            <option value="">-- Selecione o nível --</option>
+                            <option value="normal">Normal</option>
+                            <option value="dificil">Difícil</option>
+                            <option value="chucknorris">Chuck Norris</option>
+                        </select>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col">
+                <div class="d-flex justify-content-center">
+                    <button class="btn btn-danger btn-lg" onclick="iniciarJogo()">Iniciar
+                        Jogo</button>
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+
+</html>

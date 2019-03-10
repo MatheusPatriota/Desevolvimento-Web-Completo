@@ -1,0 +1,478 @@
+/*
+****** seletores universais******
+*/
+
+/*
+* {
+    border: 1px solid red;
+}
+
+/*
+****** seletores universais******
+
+
+h1 {
+    color: green;
+}
+
+/*
+****** seletores classes******
+
+
+p.red {
+    color: red;
+}
+
+/*
+****** seletores de ID******
+
+
+#cabecalho {
+    background: purple;
+}
+
+/*
+****** seletores de filhos******
+
+
+li>a {
+    color: gray;
+    text-decoration: none;
+}
+*/
+
+/*
+* {
+    margin: 0;
+    padding: 0;
+}
+
+ul {
+    padding: 0;
+    list-style-type: none;
+    margin: 0;
+}
+
+ul a {
+    display: block;
+    width: 200px;
+    height: 40px;
+    text-decoration: none;
+    text-indent: 40px;
+    line-height: 40px;
+    color: black;
+    background: url(../images/menu.png) no-repeat left bottom;
+}
+
+a:hover {
+    background-position: right bottom;
+    color: white;
+}*/
+
+/*** Menu horizontal***/
+
+/*
+ul {
+    list-style: none;
+    margin: 0;
+    padding: 0px;
+    width: 750px;
+    background: #159cb0 url(../images/fundo-horizontal.png) repeat-x;
+    float: left;
+}
+
+ul li {
+    float: left;
+}
+
+ul a {
+    display: block;
+    padding: 0 2em;
+    line-height: 2em;
+    text-decoration: none;
+    color: white;
+    background: url(../images/divisor.png) repeat-y
+}
+
+ul a:hover {
+    color: #085562;
+    background: #44cade;
+}
+*/
+
+/*** Navegação por abas***/
+
+/**
+body {
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif
+}
+
+ul {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    width: 720px;
+}
+
+ul li {
+    float: left;
+    background: url(../images/aba-direita.png) no-repeat top right;
+}
+
+ul a {
+    display: block;
+    padding: 0 2em;
+    line-height: 3em;
+    text-decoration: none;
+    background: url(../images/aba-esquerda.png) no-repeat top left;
+    color: white;
+}
+
+ul a:hover {
+    color: #894a1f;
+}
+
+ul #atual {
+    background: url(../images/aba-direita-atual.png) no-repeat top right;
+}
+
+ul #atual a {
+    background: url(../images/aba-esquerda-atual.png) no-repeat top left;
+}
+
+*/
+
+/*** layout largura fixa ***/
+
+/**
+body {
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif
+}
+
+#container {
+    width: 720px;
+    margin: 0 auto;
+    background: #fff;
+}
+
+#marca {
+    height: 100px;
+    line-height: 100px;
+    background: grey;
+    text-align: center;
+}
+
+#conteudo {
+    width: 520px;
+    float: right;
+}
+
+#navegacao {
+    width: 180px;
+    float: left;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    background: #d1d1d1;
+}
+
+#rodape {
+    clear: both;
+    text-align: center;
+    background: #c4c4c4;
+    padding: 5px;
+}
+
+#conteudo-principal {
+    width: 320px;
+    float: left;
+}
+
+#conteudo-lateral {
+    width: 180px;
+    float: right;
+    background: #d1d1d1;
+}
+
+#conteudo-lateral h1, #conteudo-lateral h2, #conteudo-lateral h3, #conteudo-lateral p {
+    padding-left: 20px;
+    padding-right: 20px;
+}
+
+ul {
+    list-style: none;
+}
+
+ul a {
+    text-decoration: none;
+    color: black;
+}
+
+/**
+
+/***layout liquido***/
+
+/*
+body {
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif
+}
+
+#container {
+    width: 85%;
+    margin: 0 auto;
+    background: #fff;
+    min-width: 720px;
+    max-width: 1280px;
+}
+
+#marca {
+    height: 100px;
+    line-height: 100px;
+    background: grey;
+    text-align: center;
+}
+
+#conteudo {
+    width: 75%;
+    float: right;
+}
+
+#navegacao {
+    width: 22%;
+    float: left;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    background: #d1d1d1;
+}
+
+#conteudo-principal {
+    width: 64%;
+    float: left;
+}
+
+#conteudo-lateral {
+    width: 30%;
+    float: right;
+    background: #d1d1d1;
+}
+
+#conteudo-lateral h1, #conteudo-lateral h2, #conteudo-lateral h3, #conteudo-lateral p {
+    padding-left: 20px;
+    padding-right: 20px;
+}
+
+#rodape {
+    clear: both;
+    text-align: center;
+    background: #c4c4c4;
+    padding: 5px;
+}
+
+ul {
+    list-style: none;
+}
+
+ul a {
+    text-decoration: none;
+    color: black;
+}
+
+/*
+
+/***layout liquido com imagens liquidas***/
+
+/* body {
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif
+}
+
+#container {
+    width: 85%;
+    margin: 0 auto;
+    background: #fff;
+    min-width: 720px;
+    max-width: 1280px;
+}
+
+#marca {
+    height: 200px;
+    line-height: 200px;
+    background: #215891 url(../images/cabecalho2.jpg) no-repeat center;
+    text-align: center;
+}
+
+#conteudo {
+    width: 75%;
+    float: right;
+}
+
+#navegacao {
+    width: 22%;
+    float: left;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    background: #d1d1d1;
+}
+
+#conteudo-principal {
+    width: 64%;
+    float: left;
+}
+
+#conteudo-lateral {
+    width: 30%;
+    float: right;
+    background: #d1d1d1;
+}
+
+#conteudo-lateral h1, #conteudo-lateral h2, #conteudo-lateral h3, #conteudo-lateral p {
+    padding-left: 20px;
+    padding-right: 20px;
+}
+
+#rodape {
+    clear: both;
+    text-align: center;
+    background: #c4c4c4;
+    padding: 5px;
+}
+
+ul {
+    list-style: none;
+}
+
+ul a {
+    text-decoration: none;
+    color: black;
+}
+
+img.imagem-noticia {
+    width: 94%;
+    max-width: 600px;
+} */
+
+/* Estilizadno tabelas */
+
+/* body {
+    font-family: 'Trebuchet MS', Helvetica, sans-serif
+}
+
+#tabela-de-produtos {
+    width: 600px;
+    border-collapse: separate;
+}
+
+th, td {
+    padding: 7px;
+}
+
+th {
+    text-transform: uppercase;
+    font-size: 90%;
+    letter-spacing: 0.1em;
+    border-top: 1px solid grey;
+    border-bottom: 1px solid grey;
+    ;
+}
+
+.numero {
+    text-align: right;
+}
+
+tr.alterna {
+    background: #c0c0c0;
+}
+
+tr:hover {
+    background-color: lightblue;
+} */
+
+/* Estilizando formularios */
+
+/* 
+body {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+fieldset {
+    margin: 1em 0;
+    padding: 1em;
+    border: 1px solid #ccc;
+    background: #f8f8f8;
+}
+
+legend {
+    font-weight: bold;
+}
+
+label {
+    display: block;
+    cursor: pointer;
+}
+
+input[type="text"] {
+    width: 20em;
+}
+
+textarea {
+    width: 20em;
+    height: 10em;
+} */
+
+/* Estilizando formularios parte 2 */
+
+/* body {
+    font-family: 'Trebuchet MS', Arial, sans-serif;
+    background: #643d87 url(../images/estilizando-formularios/fundo.jpg)     top center;
+}
+
+#container {
+    width: 400px;
+    height: 300px;
+    background: rgb(255, 255, 255, 0.3);
+    border-radius: 10px;
+    margin: 0 auto;
+    margin-top: 120px;
+    text-align: center;
+}
+
+#container img {
+    width: 120px;
+    height: 120px;
+    margin-top: -60px;
+    margin-bottom: 30px;
+}
+
+input {
+    height: 40px;
+    width: 80%;
+    font-size: 18px;
+    margin-bottom: 10px;
+    background-color: #fff;
+    padding-left: 40px;
+    background-repeat: no-repeat;
+    background-position: 10px;
+}
+
+input.email {
+    background-image: url(../images/estilizando-formularios/icone-usuario.png);
+}
+
+input.senha {
+        background-image: url(../images/estilizando-formularios/icone-cadeado.png)
+    }
+
+    input.login {
+        color: #fff;
+        background-color: #f79300;
+        border: 2px solid #db7d00;
+        padding: 5px 20px;
+        height: 45px;
+        width: 90%;
+        background: linear-gradient(to bottom, #faa600, #f68a00);
+    } */
+
+/* Arredondamentos */
+
+.caixa {
+    width: 400px;
+    background: #dedede url(/images/arredondamentos/fundo-arredondamento.png) repeat-y;
+}

@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8" />
+
+    <title>Desafio 2</title>
+    <script>
+
+        // criacao de variaveis
+        var numero1 = parseFloat(prompt("Digite o primeiro numero: "));
+        var operacao = prompt("Digite a operação: ");
+        var numero2 = parseFloat(prompt("Digite o segundo numero: "));
+
+
+
+
+        // processamento de dados
+
+        function calculo(num1, num2, operacao) {
+
+            var resultado = null;
+            if (operacao == "soma") {
+                resultado = num1 + num2;
+            } else if (operacao == "subtração") {
+                resultado = num1 - num2;
+            }
+
+            return resultado;
+        }
+
+        // chamada da funcao 
+
+        alert("O resultado é: " + calculo(numero1, numero2, operacao))
+    </script>
+</head>
+
+<body>
+
+</body>
+
+</html>

@@ -1,0 +1,126 @@
+.navbar-toggler {
+    padding: .25rem .75rem;
+    font-size: 1.25rem;
+    line-height: 1;
+    background-color: transparent;
+    border: 1px solid white;
+    border-radius: .25rem;
+}
+
+#nav-target {
+    text-transform: uppercase;
+}
+
+#nav-target a {
+    color: white;
+    font-weight: bold;
+}
+
+#nav-target a:hover {
+    color: #6a6a6b;
+    font-size: 18px;
+    font-weight: bold;
+}
+
+body {
+    font-family: 'Open Sans', sans-serif;
+    background: linear-gradient(to top, #d0dddd, white);
+}
+
+.gradient {
+    background-image: linear-gradient(to right, #a3343a, #0e2b57);
+}
+
+.config-img-header {
+    margin-top: 120px;
+    text-align: center;
+}
+
+#area-mencoes {
+    margin-top: 20px;
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+#area-mencoes footer cite {
+    color: #000;
+    text-transform: uppercase;
+    font-weight: bold;
+}
+
+#area-mencoes p {
+    font-weight: bold;
+    text-transform: uppercase;
+}
+
+.cfg-btn {
+    text-align: center;
+    margin: 20px 0px 20px 0px;
+}
+
+.cfg-btn a {
+    text-decoration: none;
+    color: #000;
+}
+
+header {
+    background: #000;
+}
+
+/* // Extra small devices (portrait phones, less than 576px)
+// No media query since this is the default in Bootstrap
+// Small devices (landscape phones, 576px and up) */
+
+@media (min-width: 576px) {}
+
+/* // Medium devices (tablets, 768px and up) */
+
+@media (min-width: 768px) {}
+
+/* // Large devices (desktops, 992px and up) */
+
+@media (min-width: 992px) {}
+
+/* // Extra large devices (large desktops, 1200px and up) */
+
+@media (min-width: 1200px) {}
+
+#um-pouco-sobre-mim p {
+    font-weight: bold;
+    text-transform: uppercase;
+}
+
+#skills i {
+    font-size: 46px;
+}
+
+#skills span {
+    font-size: 23px;
+    font-weight: bold;
+    text-transform: uppercase;
+    margin-left: 4px;
+}
+
+.outras-redes {
+    text-align: center;
+    font-size: 3em;
+    letter-spacing: 10px;
+}
+
+.outras-redes a {
+    color: #000;
+    text-decoration: none;
+}
+
+.outras-redes a:hover {
+    color: rgb(105, 101, 101);
+}
+
+.apresentacao-pag {
+    font-family: 'Montserrat', sans-serif;
+}
+
+p.apresentacao-pag {
+    text-align: center;
+    font-size: 1.5em;
+}

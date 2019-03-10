@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>Page Title</title>
+    <!-- Load Babel -->
+    <!-- v6 <script src="https://unpkg.com/babel-standalone@6/babel.min.js"></script> -->
+    <script src="https://unpkg.com/@babel/standalone/babel.min.js"></script>
+    <!-- Your custom script here -->
+    <script type="text/babel">
+        class conta{
+            constructor (){
+                this.tipo = "corrente";
+                this.saldo = 0;
+            }    
+            depositar(valor){
+                this.saldo += valor;
+            }
+            sacar(valor){
+                if (this.saldo - valor  >= 0) {
+                    this.saldo -= valor;    
+                } else{
+                    alert('Saldo insuficiente');
+                }
+            }
+            consultaSaldo(){
+                return this.saldo;
+            }
+        }
+        let contaA = new conta();
+    </script>
+</head>
+
+<body>
+    <div id="output"></div>
+</body>
+
+</html>

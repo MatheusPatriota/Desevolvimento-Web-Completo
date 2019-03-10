@@ -1,0 +1,21 @@
+/* border radius e box size */
+
+#caixa {
+    background: url(../images/camera.png);
+    height: 300px;
+    width: 300px;
+    /* border-radius: 200px;
+    padding: 10px;
+    margin: 10px; */
+    padding: 25px;
+    box-sizing: border-box;
+    /* gradiente linear */
+    /* background: linear-gradient(red, green, yellow); */
+    /* gradiente radial  */
+    /* background: radial-gradient(red, green, yellow); */
+}
+
+#caixa h1 {
+    /* opacidade */
+    background: rgba(255, 255, 255, 0.8);
+}

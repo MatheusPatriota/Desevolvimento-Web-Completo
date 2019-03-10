@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8">
+
+    <title>Java Script</title>
+    <script>
+        function trocaCor(corDeFundo) {
+            document.getElementById("quad").style.background = corDeFundo;
+        }
+
+    </script>
+</head>
+
+<body>
+    <button onclick="trocaCor('#ff1100')">Vermelho</button>
+    <button onclick="trocaCor('#119600')">Verde</button>
+    <button onclick="trocaCor('#160096')">Azul</button>
+    <br><br>
+    <div id="quad" style="width: 100px;height: 100px; background: #818181"></div>
+</body>
+
+</html>
