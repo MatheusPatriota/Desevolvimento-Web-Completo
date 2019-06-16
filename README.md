@@ -1,7 +1,7 @@
 # Desevolvimento-Web-Completo
 
 ![Desc](https://img.shields.io/badge/Status-Ever%20Changing-green.svg)
-![follow](/github/followers/:MathesPatriota.svg?label=Follow)
+![follow](/github/followers/:user.svg?label=Follow)
 
 ## Descrição
 - Repositório voltado para estudo de desenvolvimento web completo, contendo desde o basico e alguns conceitos avançados.
